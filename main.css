@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('koreantt.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  
+}
+header {
+    display: block;
+}
+
+.content-wrapper {
+    min-height: 100%;  /* Minimum height to fill the viewport */
+    position: relative;
+    padding-bottom: 50px;  /* Equal to or greater than footer height */
+}
+/* Style the navigation bar background */
+nav {
+    display: flex;
+    justify-content: space-between; /* Aligns nav-links on the left and font-size-controls on the right */
+    align-items: center; /* Centers items vertically */
+    background-color: rgb(0, 56, 168) ;
+    opacity: 0.85; /* Adjusts the opacity to 50% */
+}
+
+/* Remove default list styling */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style each link */
+.nav-links li {
+    float: left; /* This will line up the links horizontally */   
+}
+
+.nav-links li a {
+    font: normal 20px Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px #000; /* Adjusts the thickness illusion */
+    display: block; /* Makes the links fill the entire space of the li */
+    color:  rgb(7, 0, 0); /* Sets text color to black */
+    text-align: center; /* Centers text within the link */
+    padding: 14px 16px; /* Adds space around the text */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+    background-color:rgb(186, 12, 47); /* Changes background on hover */
+    opacity: 0.5; /* Adjusts the opacity to 50% */
+    border-radius: 20px;
+
+}
+img {
+    border-radius: 20px; /* This rounds the corners moderately */
+}
+
+.font-size-controls button {
+    font: normal 20px  Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px #000; /* Adjusts the thickness illusion */
+    color: rgb(7, 0, 0); /* Ensures text color is black */
+    background: none; /* Removes any background */
+    border: none; /* Removes border */
+    padding: 10px 15px; /* Adjust padding as needed */
+    cursor: pointer; /* Changes cursor to pointer to indicate clickable */
+}
+
+.font-size-controls button:hover {
+    background-color: rgb(186, 12, 47); /* Changes background to red on hover */
+    opacity: 0.5; /* Adjusts the opacity to 50% */
+    border-radius: 20px;
+}
+
+.title{
+    font: normal 46px/30px Georgia, serif;
+    text-align: center;
+    padding: 20px 16px;
+}
+.intro {
+    font: normal 16px Verdana, serif;
+    padding: 20px 16px;
+    padding-left: 50px;
+    padding-right: 50x;
+}
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ref{
+    font: normal 20px Georgia, serif;
+    text-align: left;
+    padding: 20px 16px;
+}
+#recipe, #faq{
+    font: normal 46px/30px Georgia, serif;
+    position: relative;  /* Positioning at the bottom */
+    text-align: center;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+}
+
+.ingrecipe {
+    text-align: left;
+    font-weight: bold; /* Example style to make headings stand out */
+    font: bold 25px Verdana, serif;
+    padding-left: 30px;
+}
+
+.ingrRec {
+    text-decoration-line: underline;
+    text-align: left; 
+    margin: 10px 370px 10px 630px;
+}
+
+.instr {
+   
+    list-style-position: inside; /* Positions bullet points inside the list to avoid alignment issues */
+    text-align:left;
+    margin: 10px 370px 10px 630px;
+   
+}
+.inst {
+    text-decoration-line: underline;
+    list-style-position: inside; /* Positions bullet points inside the list to avoid alignment issues */
+    text-align:center; 
+   
+   
+}
+
+ul {
+    font: normal 20px Verdana, serif;
+    list-style-type: disc;  /* Enable bullet points */
+    margin-left: 20px;  /* Indent list from the left side */
+    padding-left: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li {
+    margin-bottom: 10px;  /* Space between list items */
+}
+.questions, .answers {
+    font: normal 16px Verdana, serif;
+    text-align: left;
+    margin: 20px 300px 10px 300px;
+}
+
+.instruction{
+    font: normal 16px Helvetica, sans-serif;
+    text-align: left;
+    margin: 25px 400px 15px 400px;
+}
+footer {
+    position: relative;  /* Positioning at the bottom */
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    background-color: none;
+    color: black;
+}
+#copyright{
+    position: absolute;  /* Positioning at the bottom */
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    background-color: none;
+    color: black;
+}
+.notes{
+    font: normal 16px Verdana, serif;
+    text-align: left;
+    margin: 25px 400px 15px 400px;
+
+}
