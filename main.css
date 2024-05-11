@@ -103,7 +103,7 @@ img {
     position: relative;  /* Positioning at the bottom */
     text-align: center;
     padding: 20px 20px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .ingrecipe {
@@ -112,18 +112,24 @@ img {
     font: bold 25px Verdana, serif;
     padding-left: 30px;
 }
+.ingre {
+    text-decoration-line: underline;
+    text-align: left; 
+    margin: 40px 370px 15px 630px;
+}
 
 .ingrRec {
     text-decoration-line: underline;
     text-align: left; 
-    margin: 10px 370px 10px 630px;
+    margin: 15px 370px 15px 630px;
 }
+
 
 .instr {
     font: normal 16px Verdana, serif;
     list-style-position: inside; /* Positions bullet points inside the list to avoid alignment issues */
     text-align:left;
-    margin: 10px 370px 10px 630px;
+    margin: 15px 370px 15px 630px;
    
 }
 .inst {
