@@ -57,8 +57,7 @@ nav {
 
 }
 img {
-    border-radius: 20px; /* This rounds the corners moderately */
-    padding-bottom: 40px;
+    border-radius: 15px; /* This rounds the corners moderately */
 }
 
 .font-size-controls button {
@@ -81,10 +80,11 @@ img {
     font: normal 46px/30px Georgia, serif;
     text-align: center;
     padding: 20px 16px;
+    padding-bottom: 60px;
 }
 .intro {
     font: normal 16px Verdana, serif;
-    padding: 20px 16px;
+    padding-top: 40px;
     padding-left: 50px;
     padding-right: 50x;
 }
@@ -94,7 +94,7 @@ img {
     margin-right: auto;
 }
 .ref{
-    font: normal 20px Georgia, serif;
+    font: normal 16px Georgia, serif;
     text-align: left;
     padding: 20px 16px;
 }
