@@ -81,6 +81,7 @@ img {
     text-align: center;
     padding: 20px 16px;
     padding-bottom: 60px;
+    padding-top: 40px;
 }
 .intro {
     font: normal 16px Verdana, serif;
@@ -104,6 +105,7 @@ img {
     text-align: center;
     padding: 20px 20px;
     padding-bottom: 50px;
+    padding-top: 40px
 }
 
 .ingrecipe {
